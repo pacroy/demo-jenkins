@@ -31,6 +31,6 @@ public class DemoJenkinsTest {
 	public void ทดสอบใช้ภาษาไทย() {
 		DemoJenkins dj = new DemoJenkins();
 		assertEquals(DemoJenkins.TYPE_SCALENE, dj.getType(456,789,567));
-//		assertEquals(DemoJenkins.TYPE_SCALENE, dj.getType(456,456,456));
+		assertEquals(DemoJenkins.TYPE_SCALENE, dj.getType(456,456,456));
 	}
 }
