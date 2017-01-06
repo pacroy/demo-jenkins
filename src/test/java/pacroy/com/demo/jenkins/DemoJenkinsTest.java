@@ -29,8 +29,8 @@ public class DemoJenkinsTest {
 	@SuppressWarnings("static-access")
 	@Test
 	public void ทดสอบใช้ภาษาไทย() {
-		DemoJenkins dj = new DemoJenkins();
-		assertEquals(DemoJenkins.TYPE_SCALENE, dj.getType(456,789,567));
+//		DemoJenkins dj = new DemoJenkins();
+		assertEquals(DemoJenkins.TYPE_SCALENE, DemoJenkins.getType(456,789,567));
 //		assertEquals(DemoJenkins.TYPE_SCALENE, dj.getType(456,456,456));
 	}
 }
